@@ -9,13 +9,14 @@
 
 ## 스터디 방식 ⚖️
 
-1. 한 사람씩 돌아가면서 문제 선정, 단 일정이 너무 바쁘면 그 사람이 문제 선정하기
+- 평일 : 1일 1문제
+- 주말 : 난이도 &uarr; 1문제
+- 문제 선정 순서 : [@MALLLAG](https://github.com/MALLLAG) &rarr; [@beolggoolosori](https://github.com/beolggoolosori) &rarr; [@imzeze](https://github.com/imzeze) &rarr; [@white-gyu](https://github.com/white-gyu)
+
+1. 한 사람씩 돌아가면서 문제 선정, 단 **일정이 너무 바쁘면 그 사람이 문제 선정**하기
 2. 선정한 문제 풀이 및 github push
 3. 문제 풀이 해설 및 PR
 4. PR Review
-
-- 평일 : 1일 1문제
-- 주말 : 난이도 &uarr; 1문제
 
 ## 일정 📆
 
