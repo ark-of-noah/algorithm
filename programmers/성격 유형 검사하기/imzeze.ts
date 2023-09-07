@@ -6,10 +6,9 @@ function solution(survey, choices) {
 
   for (let i = 0; i < survey.length; i++) {
     const character = survey[i];
-    const score = Math.abs(choices[i] - NOTHING);
-    const type =
-      choices[i] > NOTHING ? character.slice(1) : character.slice(0, 1);
-    characters[type] = (characters[type] || 0) + score;
+    const score = choices[i] - NOTHING;
+    const type = score > 0 ? character.slice(1) : character.slice(0, 1);
+    characters[type] = (characters[type] || 0) + Math.abs(score);
   }
 
   for (let i = 0; i < types.length; i = i + 2) {
