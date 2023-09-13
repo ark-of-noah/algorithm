@@ -1,5 +1,3 @@
-import java.util.*
-
 class Solution {
     fun solution(
         places: Array<Array<String>>
@@ -13,7 +11,6 @@ class Solution {
 
         for (i in places.indices) {
             val grid = Array(5) { CharArray(5) }
-            val visited = Array(5) { BooleanArray(5) }
 
             for (j in places[i].indices) {
                 grid[j] = places[i][j].split("")
