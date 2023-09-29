@@ -16,6 +16,7 @@ const maximizeTheProfit = function (n, offers) {
 
     // start point가 0인 경우 start point가 0인 다른 offer와 겹칠 수 있으므로 분기 처리 필요
     if (start > 0) {
+      // start point 이전의 profit과 현재 offer의 profit을 더하게 됌
       dp[end] = (dp[start - 1] || 0) + profit;
     } else {
       dp[end] = profit;
