@@ -10,7 +10,7 @@ class Solution {
                 }
             }
 
-            max = Math.max(max, dp[i])
+            max = maxOf(max, dp[i])
         }
 
         return max
